@@ -1,0 +1,20 @@
+@media (min-width: 1300px) {
+    .hero-section {
+        background-position: 100% -50px;
+        background-size: 100% 120%;
+    }
+
+    div.feature-card {
+        width: calc(33.33% - 16px);
+    }
+}
+
+@media (min-width: 767.5px) {
+    div.feature-card {
+        width: calc(50% - 16px);
+    }
+
+    div.linkedin-professional-card {
+        width: calc(50% - 12px);
+    }
+}

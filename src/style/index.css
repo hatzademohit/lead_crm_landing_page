@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #01b2d8;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #090f4e;
+    border-radius: 10px;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-section {
+    background-image: url('src/assets/img/hero-section-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_bg {
+    background-image: url('/src/assets/img/text_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 15px;
+    background-size: 95%;
+}
+
+.slick-slide .flex {
+    display: flex !important;
+}
+
+.crm-card {
+    box-shadow: 0px 8px 24px 0px #959DA533;
+}
+
+.with-out-crm {
+    background-color: #FFF7F8;
+
+    .desc-img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.save-hours button::after {
+    content: '';
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    background-image: url('/src/assets/img/save-hours.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -54px;
+    right: -210px;
+}
+
+.how-it-works {
+    background-color: #EAEFFA;
+    background-image: url('/src/assets/img/how-it-work.png');
+}
+
+div.feature-card {
+    width: 100%;
+}
