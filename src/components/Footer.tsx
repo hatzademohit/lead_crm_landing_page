@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="bg-[linear-gradient(277.75deg,_rgba(1,178,216,0.22)_0%,_rgba(1,178,216,0.07)_77%)] lg:mt-[150px] md:mt-[100px] mt-15">
             <div className="mx-auto max-w-[1300px] pt-6 pb-3 lg:p-3 p-2">
-                <div className="grid grid-cols-1 gap-5 mb-12 text-center sm:gap-3 sm:grid-cols-2 lg:grid-cols-5 lg:gap-7 md:gap-5 sm:text-start">
+                <div className="grid grid-cols-1 gap-5 pt-2 mb-12 text-center sm:gap-3 sm:grid-cols-2 lg:grid-cols-5 lg:gap-7 md:gap-5 sm:text-start">
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2 mb-4">
                             <img src={logo} alt='logo' className='m-auto sm:m-0' />
