@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Image } from "react-bootstrap";
 
 type DescriptionItem = {
     descHeading: string;
@@ -29,12 +28,12 @@ const CRMCards: FC<CRMCardsProps> = ({
         <div className={`p-4 rounded-[18px] crm-card lg:p-6 shadow-md bg-white ${className}`}>
 
             {/* Top Image */}
-            <Image src={image} alt={heading} className="w-full mb-4" />
+            <img src={image} alt={heading} className="w-full mb-4" />
 
             {/* Heading */}
             <div className="flex flex-wrap items-center gap-2 mb-4 lg:mb-6 lg:gap-4">
                 <h2 className="text-lg font-semibold">{heading}</h2>
-                {headingIcon && <Image src={headingIcon} alt={heading} className="w-[28px] h-[28px]" />}
+                {headingIcon && <img src={headingIcon} alt={heading} className="w-[28px] h-[28px]" />}
                 {headingpill &&
                     <span className="px-3 py-1 text-xs flex justify-center items-center text-green-600 bg-green-300 rounded-full h-[32px]">
                         {headingpill}
@@ -48,7 +47,7 @@ const CRMCards: FC<CRMCardsProps> = ({
                     <div key={index} className="flex items-center gap-2 lg:gap-4">
 
                         {/* Icon */}
-                        <Image src={item.icon} alt="" className="h-[40px] w-[40px] desc-img" />
+                        <img src={item.icon} alt="" className="h-[40px] w-[40px] desc-img" />
 
                         {/* Content */}
                         <div>

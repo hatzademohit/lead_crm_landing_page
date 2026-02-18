@@ -2,7 +2,6 @@ import { useState } from "react";
 import { LogIn, Menu, X } from "lucide-react";
 import NavDropdown from "./NavDropdown";
 import logo from "../assets/img/Leadcrm_logo.svg";
-import { Image } from "react-bootstrap";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-custom">
       <div className="mx-auto lg:px-6 lg:py-4 md:p-4 p-2 max-w-[1500px] flex items-center justify-between">
         {/* Logo */}
-        <Image src={logo} alt="logo" width={180} className="z-50 lg:w-[180px] sm:w-[150px] w-[100px]" />
+        <img src={logo} alt="logo" width={180} className="z-50 lg:w-[180px] sm:w-[150px] w-[100px]" />
 
         {/* Desktop nav */}
         <nav className="items-center hidden gap-8 lg:flex">

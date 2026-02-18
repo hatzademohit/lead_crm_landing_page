@@ -3,7 +3,6 @@ import sliderUser from '../assets/img/slider-user.png'
 import sliderHand from '../assets/img/slider-hand.png'
 import sliderDots from '../assets/img/slider-dots.png'
 import sliderWaterfall from '../assets/img/slider-waterfall.png'
-import { Image } from 'react-bootstrap';
 
 const slides = [
     { id: 1, img: sliderUser, title: 'Access to', description: '700M+ Contacts' },
@@ -49,7 +48,7 @@ export default function MovableSlider() {
             <Slider {...settings}>
                 {slides.map(({ id, img, title, description }) => (
                     <div key={id} className="flex items-center">
-                        <Image className='w-[55px] h-[55px]' src={img} alt={title} />
+                        <img className='w-[55px] h-[55px]' src={img} alt={title} />
                         <div className='flex gap-2 ml-2'>
                             <p className='lg:text-[18px] font-semibold'>{title}</p>
                             <span className='text-gray-600'>{description}</span>

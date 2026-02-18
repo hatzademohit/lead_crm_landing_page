@@ -4,7 +4,6 @@ import Rating from './Rating';
 import halfCrome from '../assets/img/half-crome.png'
 import playstore from '../assets/img/playstore.png'
 import crome from '../assets/img/crome.png'
-import { Image } from 'react-bootstrap';
 
 export default function HeroSection() {
   return (
@@ -43,7 +42,7 @@ export default function HeroSection() {
               <span className='text-[12px] font-[200] leading-[12px]'>Available in</span>
               <p>Chrome Web Store</p>
             </div>
-            <Image src={crome} alt='crome-icon' />
+            <img src={crome} alt='crome-icon' />
           </button>
           <button className="px-[21px] py-[17px] bg-lime-300 hover:bg-lime-400 text-gray-900 font-bold rounded-lg transition-colors lg:w-[225px]">
             Get a Free Trial Now!

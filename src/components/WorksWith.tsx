@@ -1,7 +1,6 @@
 import Hubspot from '../assets/img/Hubspot.png'
 import Pipedrive from '../assets/img/Pipedrive.png'
 import Salesforce from '../assets/img/Salesforce.png'
-import { Image } from 'react-bootstrap';
 
 interface LogoItem {
   id: string;
@@ -46,7 +45,7 @@ export default function WorksWith({ logos = defaultLogos }: WorksWithProps) {
             className={`${logo.bgColor} w-12 h-12 p-2.5 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow lg:w-[60px] lg:h-[60px]`}
             title={logo.name}
           >
-            <Image src={logo.icon} alt={logo.name} className='h-auto w-100' />
+            <img src={logo.icon} alt={logo.name} className='h-auto w-100' />
           </div>
         ))}
       </div>

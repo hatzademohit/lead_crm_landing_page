@@ -26,7 +26,7 @@ function FreeTrial() {
                 <div className='bg-[#FFEEFE] rounded-xl p-4 mb-3 flex items-center gap-2'>
                     <img src={Users} alt='users' width={93} />
                     <h3 className='font-semibold text-[20px] leading-[100%] text-[#121212]'>Join with our Thousands of professionals Now !</h3>
-                    <button className='w-[214px] h-[60px] rounded-[13px] px-[13px] bg-[#B3FC6A] hover:bg-[#9af440]'>Get a Free Trial Now!</button>
+                    <button className='w-[214px] h-[60px] rounded-[13px] px-[13px] bg-[#B3FC6A] hover:bg-[#9af440] font-semibold'>Get a Free Trial Now!</button>
                 </div>
                 <div className='flex items-center justify-center gap-20'>
                     <div className='flex items-center gap-1'>
