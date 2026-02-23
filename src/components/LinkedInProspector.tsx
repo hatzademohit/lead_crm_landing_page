@@ -37,7 +37,7 @@ const LinkedInProspector = () => {
                     </div>
                 </div>
                 <div className='hidden text-center save-hours md:flex'>
-                    <button className="relative px-6 py-3 lg:mt-[70px] md:lt-10 lt-5 font-semibold text-black transition duration-200 rounded-lg shadow-md bg-lime-300 hover:bg-lime-400">
+                    <button className="relative px-6 mx-auto py-3 lg:mt-[70px] md:lt-10 lt-5 font-semibold text-black transition duration-200 rounded-lg shadow-md bg-lime-300 hover:bg-lime-400">
                         Start Using LeadCRM Now
                     </button>
                 </div>
