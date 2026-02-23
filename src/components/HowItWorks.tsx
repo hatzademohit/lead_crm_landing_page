@@ -11,7 +11,7 @@ function HowItWorks() {
                 <div className="relative grid items-center grid-cols-1 gap-6 mt-4 lg:grid-cols-4 md:grid-cols-2 lg:mt-11 md:mt-7">
                     {HowItWorksData && HowItWorksData.map((item: any) => (
                         <WordCard
-                            key={item.id}
+                            key={item?.step}
                             step={item?.step}
                             title={item.title}
                             description={item.description}
